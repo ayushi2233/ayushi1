@@ -4,10 +4,10 @@ n = input()
 if bool(re.match(pat,n)):
     n = int(n)
     if(n%4 == 0 and n%100!=0):
-        print("Yes")
+        print("yes")
     elif(n%400 == 0):
-        print("Yes")
+        print("yes")
     else:
-        print("No")
+        print("no")
 else:
     print("invalid input")
